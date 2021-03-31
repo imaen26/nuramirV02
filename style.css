@@ -164,7 +164,7 @@ margin-left: 10px;
 }
 .section-title h2 {
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 0;
     padding: 0;
     line-height: 1px;
     margin: 0 0 7px 0;
@@ -334,18 +334,18 @@ margin-left: 10px;
   opacity: 1;
 }
 .fasilitas .media {
-	background-color: #f8f9fa;
-	margin-bottom: 20px;
+  background-color: #f8f9fa;
+  margin-bottom: 20px;
     padding: 30px;
     border-radius: 6px;
 }
 .media-body h5 {
-	color: #0380dc;
-	font-weight: 700;
+  color: #0380dc;
+  font-weight: 700;
 }
 .about h2 {
-	text-transform: uppercase;
-	font-weight: 700;
+  text-transform: uppercase;
+  font-weight: 700;
   color: #0380dc;
 }
 .about h3 {
