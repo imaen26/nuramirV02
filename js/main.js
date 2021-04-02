@@ -158,17 +158,17 @@ $(document).ready(function(){
 });
 
 
-  // Porfolio isotope and filter
+  // photo isotope and filter
   $(window).on('load', function() {
-    var portfolioIsotope = $('.portfolio-container').isotope({
-      itemSelector: '.portfolio-item'
+    var photoIsotope = $('.photo-container').isotope({
+      itemSelector: '.photo-item'
     });
 
-    $('#portfolio-flters li').on('click', function() {
-      $("#portfolio-flters li").removeClass('filter-active');
+    $('#photo-flters li').on('click', function() {
+      $("#photo-flters li").removeClass('filter-active');
       $(this).addClass('filter-active');
 
-      portfolioIsotope.isotope({
+      photoIsotope.isotope({
         filter: $(this).data('filter')
       });
     });
@@ -181,6 +181,8 @@ $(document).ready(function(){
     });
   });
 
+
+
   // Skills section
   $('.skills-content').waypoint(function() {
     $('.progress .progress-bar').each(function() {
@@ -190,8 +192,15 @@ $(document).ready(function(){
     offset: '80%'
   });
 
-  // Portfolio details carousel
-  $(".portfolio-details-carousel").owlCarousel({
+  // villa details carousel
+  $(".villa-details-carousel").owlCarousel({
+    autoplay: true,
+    dots: true,
+    loop: true,
+    items: 1
+  });
+  // photo details carousel
+  $(".photo-details-carousel").owlCarousel({
     autoplay: true,
     dots: true,
     loop: true,
