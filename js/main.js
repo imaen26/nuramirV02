@@ -160,7 +160,7 @@ $(document).ready(function(){
 
   // photo isotope and filter
   $(window).on('load', function() {
-    var photoIsotope = $('.photo-container').isotope({
+    var photoIsotope = $('.villa-container').isotope({
       itemSelector: '.photo-item'
     });
 
