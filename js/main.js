@@ -160,7 +160,7 @@ $(document).ready(function(){
 
   // Porfolio isotope and filter
   $(window).on('load', function() {
-    var portfolioIsotope = $('.villa-container').isotope({
+    var villaIsotope = $('.villa-container').isotope({
       itemSelector: '.villa-item'
     });
 
