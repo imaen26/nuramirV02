@@ -158,17 +158,17 @@ $(document).ready(function(){
 });
 
 
-  // photo isotope and filter
+  // Porfolio isotope and filter
   $(window).on('load', function() {
-    var photoIsotope = $('.villa-container').isotope({
-      itemSelector: '.photo-item'
+    var portfolioIsotope = $('.villa-container').isotope({
+      itemSelector: '.villa-item'
     });
 
-    $('#photo-flters li').on('click', function() {
-      $("#photo-flters li").removeClass('filter-active');
+    $('#portfolio-flters li').on('click', function() {
+      $("#portfolio-flters li").removeClass('filter-active');
       $(this).addClass('filter-active');
 
-      photoIsotope.isotope({
+      portfolioIsotope.isotope({
         filter: $(this).data('filter')
       });
     });
