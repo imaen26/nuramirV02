@@ -95,7 +95,8 @@ div {
   padding: 0px; /* firefox bug fix */
 }
     .carousel .carousel-item {
-  height: 500px;
+         height: 100vh;
+    min-height: 400px;
 }
 
 .carousel-item img {
